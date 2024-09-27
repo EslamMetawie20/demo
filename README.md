@@ -22,7 +22,7 @@ Das Git Projekt enthält alle nötigen grundlegenden Dateien, um die Aufgaben zu
 Falls Sie im Frontend die Fehlermeldung bekommen, dass keine Views verfügbar sind oder das Builden der Frontend Bundles nicht funktioniert:
 - maven clean und package im Production Modus durchführen. Dafür den Haken bei production setzen in dem Abschnitt Profiles.
 - <img src="/doc-images/maven.png" width="500px">
-  - Im Production Modus werden die Frontend Bundles erstellt. Wenn man sich den Log von package genauer ansieht
+- Im Production Modus werden die Frontend Bundles erstellt. Wenn man sich den Log von package genauer ansieht
   steht dort "Running Vite...". (Geduld: das kann dauern)
 - Erneut den Server über den Button starten. Der initiale Prozess, dass die Bundles erstellt werden, wurde dann durchgeführt.
 In der Regel passiert dies durch das Aufrufen der Webseite im Browser. Sie können die Bundles unter src/main/bundles im Git tracken, müssen Sie aber nicht.
