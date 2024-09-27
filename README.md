@@ -13,16 +13,16 @@ Das Git Projekt enthält alle nötigen grundlegenden Dateien, um die Aufgaben zu
 - Dependencies herunterladen (geschieht automatisch, kann 2-5 min dauern).
 - <img src="/doc-images/build.png" width="500px">
 - in das VPN einwählen
-- Maven clean und package ausführen (Maven Menü in der Leiste rechts)
-- <img src="/doc-images/maven.png" width="500px">
 - src/main/java/de/ostfalia/application/Application.java starten <b>oder</b> auf den Play Button oben rechts drücken
 - ggf schlägt IntelliJ nach Starten vor weitere Dependencys mit "npm install" heruterzuladen \(mit Button bestätigen\). Sie sollte nach Installation der npm Packete den node_modules Ordner im Projekt sehen.</br>
 - <img src="/doc-images/build.png" width="500px">
 - Server mit der Anwendung läuft unter dem Tab Services \(siehe Leiste unten\)
 
 ### Falls das Builden des Frontends nicht funktioniert 
+Falls Sie im Frontend die Fehlermeldung bekommen, dass keine Views verfügbar sind oder das Builden der Frontend Bundles nicht funktioniert:
 - maven clean und package im Production Modus durchführen. Dafür den Haken bei production setzen in dem Abschnitt Profiles.
-  -  Im Production Modus werden die Frontend Bundles erstellt. Wenn man sich den Log von package genauer ansieht
+- <img src="/doc-images/maven.png" width="500px">
+  - Im Production Modus werden die Frontend Bundles erstellt. Wenn man sich den Log von package genauer ansieht
   steht dort "Running Vite...". (Geduld: das kann dauern)
 - Erneut den Server über den Button starten. Der initiale Prozess, dass die Bundles erstellt werden, wurde dann durchgeführt.
 In der Regel passiert dies durch das Aufrufen der Webseite im Browser. Sie können die Bundles unter src/main/bundles im Git tracken, müssen Sie aber nicht.
@@ -71,6 +71,5 @@ Das erste Starten der Anwendung kann durch einen längeren Build Process etwas d
 ## Nützliche Links
 - Vaadin Dokumentation: https://vaadin.com/docs/latest/overview
 - Java Client für Influx DB: https://github.com/influxdata/influxdb-client-java
-- SO Charts Plug In:https://vaadin.com/directory/component/so-charts
 - SO Charts Beispiele: https://vaadin.com/directory/component/so-charts
 
