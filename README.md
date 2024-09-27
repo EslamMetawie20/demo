@@ -10,13 +10,13 @@ Das Git Projekt enthält alle nötigen grundlegenden Dateien, um die Aufgaben zu
 - Mittels git clone \<repolink-hier-einfügen> lokal herunterladen \(geht auch über IntelliJ\).
 - Projekt in IntelliJ öffnen
 - Dependencies herunterladen (geschieht automatisch, kann 2 min dauern).
-- <img src="/doc-images/build.png" width="400px">
+- <img src="/doc-images/build.png" width="500px">
 - in das VPN einwählen
 - Maven clean und package ausführen (Maven Menü in der Leiste rechts)
-- <img src="/doc-images/maven.png" width="400px">
+- <img src="/doc-images/maven.png" width="500px">
 - src/main/java/de/ostfalia/application/Application.java starten <b>oder</b> auf den Play Button oben rechts drücken
 - ggf schlägt IntelliJ nach Starten vor weitere Dependencys mit "npm install" heruterzuladen \(mit Button bestätigen\). Sie sollte nach Installation der npm Packete den node_modules Ordner im Projekt sehen.</br>
-- <img src="/doc-images/build.png" width="400px">
+- <img src="/doc-images/build.png" width="500px">
 - Server mit der Anwendung läuft unter dem Tab Services \(siehe Leiste unten\)
 
 ### Falls das Builden des Frontends nicht funktioniert 
@@ -71,14 +71,5 @@ Das erste Starten der Anwendung kann durch einen längeren Build Process etwas d
 - Vaadin Dokumentation: https://vaadin.com/docs/latest/overview
 - Java Client für Influx DB: https://github.com/influxdata/influxdb-client-java
 - SO Charts Plug In:https://vaadin.com/directory/component/so-charts
-- SO Charts Beispiele: https://storedobject.com/examples/?login=AUTO
+- SO Charts Beispiele: https://vaadin.com/directory/component/so-charts
 
-## FAQ
-### Der Run Button ist in IntelliJ ausgegraut und ich kann die Anwendung nicht starten.
-Das Projekt neu builden (obere Leiste, Hammer Button oder Strg+9), 1-2 Min warten und dann den Run Button drücken.
-### Ich bekomme eine CannotCreateTransactionException auf der Konsole. Woran liegt das?
-Die Verbindung zum VPN wurde nicht hergestellt oder ist abgebrochen. An dieser Stelle entweder mit dem VPN
-verbinden oder bei bestehender Verbindung die Verbindung trennen und erneut verbinden.
-
-### Bei IntelliJ werden mir Dateien in Gelb angezeigt.
-Diese Dateien liegen in der .gitignore und werden nicht versioniert.
