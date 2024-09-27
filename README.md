@@ -3,7 +3,7 @@ Das Git Projekt enthält alle nötigen grundlegenden Dateien, um die Aufgaben zu
 
 ## Requirements
 - Java 17
-- npm Version min. Version 10
+- npm min. Version 10
 - IntelliJ
 
 ## Setup Lokaler Rechner
