@@ -10,7 +10,7 @@ Das Git Projekt enthält alle nötigen grundlegenden Dateien, um die Aufgaben zu
 - neueste IntelliJ Version herunterladen
 - Mittels git clone \<repolink-hier-einfügen> lokal herunterladen \(geht auch über IntelliJ\).
 - Projekt in IntelliJ öffnen
-- Dependencies herunterladen (geschieht automatisch, kann 2 min dauern).
+- Dependencies herunterladen (geschieht automatisch, kann 2-5 min dauern).
 - <img src="/doc-images/build.png" width="500px">
 - in das VPN einwählen
 - Maven clean und package ausführen (Maven Menü in der Leiste rechts)
@@ -23,7 +23,7 @@ Das Git Projekt enthält alle nötigen grundlegenden Dateien, um die Aufgaben zu
 ### Falls das Builden des Frontends nicht funktioniert 
 - maven clean und package im Production Modus durchführen. Dafür den Haken bei production setzen in dem Abschnitt Profiles.
   -  Im Production Modus werden die Frontend Bundles erstellt. Wenn man sich den Log von package genauer ansieht
-  steht dort "Running Vite...". Zu dem Zeitpunkt werden die Frontend Bundles erstellt.
+  steht dort "Running Vite...". (Geduld: das kann dauern)
 - Erneut den Server über den Button starten. Der initiale Prozess, dass die Bundles erstellt werden, wurde dann durchgeführt.
 In der Regel passiert dies durch das Aufrufen der Webseite im Browser. Sie können die Bundles unter src/main/bundles im Git tracken, müssen Sie aber nicht.
   Danach kann die Anwenung wieder ohne Production Modus laufen. Dafür Haken bei Production entfernen,
