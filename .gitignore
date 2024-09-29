@@ -6,3 +6,4 @@
 */node_module/*
 */src/main/dev-bundle/webapp/*
 */frontend/generated/*
+.DS_Store
