@@ -7,3 +7,8 @@
 */src/main/dev-bundle/webapp/*
 */frontend/generated/*
 .DS_Store
+.idea
+/frontend/generated/
+/node_modules/.bin
+/node_modules
+/target
